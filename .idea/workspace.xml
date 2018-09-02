@@ -54,7 +54,7 @@
         <counts>
           <entry key="erb" value="136" />
           <entry key="feature" value="2" />
-          <entry key="rb" value="3231" />
+          <entry key="rb" value="3294" />
           <entry key="txt" value="606" />
         </counts>
       </usages-collector>
@@ -62,7 +62,7 @@
         <counts>
           <entry key="Cucumber" value="2" />
           <entry key="RHTML" value="134" />
-          <entry key="Ruby" value="3233" />
+          <entry key="Ruby" value="3296" />
           <entry key="Scratch" value="606" />
         </counts>
       </usages-collector>
@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="348">
+              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -268,12 +268,12 @@
       <workItem from="1535826874822" duration="23503000" />
       <workItem from="1535875403168" duration="6979000" />
       <workItem from="1535898323657" duration="1501000" />
-      <workItem from="1535903839160" duration="19437000" />
+      <workItem from="1535903839160" duration="20562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64220000" />
+    <option name="totallyTimeSpent" value="65345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="0" width="1458" height="1045" extended-state="0" />
@@ -430,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="348">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
         </state>
       </provider>
     </entry>
