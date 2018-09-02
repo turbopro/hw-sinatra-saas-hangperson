@@ -10,6 +10,8 @@ class HangpersonGame
 
   attr_accessor :word, :guesses, :wrong_guesses
 
+  MAX_GUESSES = 7
+
   def initialize(word)
     @word = word
     @guesses = ''
@@ -57,7 +59,7 @@ class HangpersonGame
   end
 
   def check_win_or_lose
-    return :lose if @wrong_guesses.length >= 7
+    return :lose if @wrong_guesses.length >= MAX_GUESSES
     return :win  if @word == word_with_guesses
     :play
   end
