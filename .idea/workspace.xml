@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df7d38c-9652-4d10-b647-658b9461714d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/hangperson_game.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/hangperson_game.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/lose.erb" beforeDir="false" afterPath="$PROJECT_DIR$/views/lose.erb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
         <counts>
           <entry key="erb" value="136" />
           <entry key="feature" value="2" />
-          <entry key="rb" value="2797" />
+          <entry key="rb" value="3073" />
           <entry key="txt" value="606" />
         </counts>
       </usages-collector>
@@ -65,7 +63,7 @@
         <counts>
           <entry key="Cucumber" value="2" />
           <entry key="RHTML" value="134" />
-          <entry key="Ruby" value="2799" />
+          <entry key="Ruby" value="3075" />
           <entry key="Scratch" value="606" />
         </counts>
       </usages-collector>
@@ -94,11 +92,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="105">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -159,8 +157,8 @@
         <option value="$PROJECT_DIR$/features/game_over.feature" />
         <option value="$PROJECT_DIR$/views/lose.erb" />
         <option value="$PROJECT_DIR$/views/win.erb" />
-        <option value="$PROJECT_DIR$/lib/hangperson_game.rb" />
         <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/lib/hangperson_game.rb" />
       </list>
     </option>
   </component>
@@ -271,12 +269,12 @@
       <workItem from="1535826874822" duration="23503000" />
       <workItem from="1535875403168" duration="6979000" />
       <workItem from="1535898323657" duration="1501000" />
-      <workItem from="1535903839160" duration="16743000" />
+      <workItem from="1535903839160" duration="17431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61526000" />
+    <option name="totallyTimeSpent" value="62214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="0" width="1458" height="1045" extended-state="0" />
@@ -412,13 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/game_over.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -433,8 +424,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/hangperson_game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
         </state>
       </provider>
     </entry>

@@ -7,8 +7,6 @@ class HangpersonApp < Sinatra::Base
   enable :sessions
   register Sinatra::Flash
 
-  #MAX_GUESSES = 7
-
   before do
     @game = session[:game] || HangpersonGame.new('')
   end
@@ -71,17 +69,11 @@ class HangpersonApp < Sinatra::Base
   
   get '/win' do
     ### YOUR CODE HERE ###
-    if @game.check_win_or_lose == :win
-      erb :win # You may change/remove this line
-    end
+    erb :win
   end
   
   get '/lose' do
     ### YOUR CODE HERE ###
-    if @game.check_win_or_lose == :lose
-      #erb :lose # You may change/remove this line
-
-    end
     erb :lose
   end
   

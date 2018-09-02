@@ -1,20 +1,12 @@
 class HangpersonGame
 
-  # add the necessary class methods, attributes, etc. here
-  # to make the tests in spec/hangperson_game_spec.rb pass.
-
-  # Get a word from remote "random word" service
-
-  # def initialize()
-  # end
-
   attr_accessor :word, :guesses, :wrong_guesses
 
   def initialize(word)
     @word = word
     @guesses = ''
     @wrong_guesses = ''
-    @@max_guesses = 7
+    @@max_guesses = 7     ## max number of guesses; constant for use across the app
   end
 
   # You can test it by running $ bundle exec irb -I. -r app.rb
@@ -61,6 +53,7 @@ class HangpersonGame
     :play
   end
 
+  ## allow access to avoid 'magic numbers' in class HangpersonApp
   def self.max_guesses
     @@max_guesses
   end
