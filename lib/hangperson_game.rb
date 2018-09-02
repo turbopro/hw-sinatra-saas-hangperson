@@ -28,4 +28,38 @@ class HangpersonGame
     }
   end
 
+  def guess char
+    if char.nil? || !char.match(/\A[a-z]\z/i)
+      raise ArgumentError
+      return false
+    end
+    char.downcase!
+
+    return false if @guesses.include?(char) || @wrong_guesses.include?(char)
+
+    if @word.include? char
+      @guesses += char
+      true
+    else
+      @wrong_guesses += char
+      true
+    end
+  end
+
+  def word_with_guesses
+    game_display = '-' * @word.length
+    @guesses.each_char do |guess_char|
+      @word.split('').each_with_index do |word_char, idx|
+        game_display[idx] = word_char if word_char == guess_char
+      end
+    end
+    game_display
+  end
+
+  def check_win_or_lose
+    return :lose if @wrong_guesses.length >= 7
+    return :win  if @word == word_with_guesses
+    :play
+  end
+
 end

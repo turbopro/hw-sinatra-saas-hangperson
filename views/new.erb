@@ -1,4 +1,6 @@
 <!-- This form is incomplete--it needs a destination URL as well as a method: -->
-<form method="post">
+<form action="/create" method="post">
+  <% guess_word = HangpersonGame.get_random_word %>
+  <% HangpersonGame.new(guess_word) %>
   <input type="submit" value="New Game"/>
 </form>
