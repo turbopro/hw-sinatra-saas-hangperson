@@ -10,12 +10,11 @@ class HangpersonGame
 
   attr_accessor :word, :guesses, :wrong_guesses
 
-  MAX_GUESSES = 7
-
   def initialize(word)
     @word = word
     @guesses = ''
     @wrong_guesses = ''
+    @@max_guesses = 7
   end
 
   # You can test it by running $ bundle exec irb -I. -r app.rb
@@ -33,18 +32,16 @@ class HangpersonGame
   def guess char
     if char.nil? || !char.match(/\A[a-z]\z/i)
       raise ArgumentError
-      return false
     end
+
     char.downcase!
 
     return false if @guesses.include?(char) || @wrong_guesses.include?(char)
 
     if @word.include? char
       @guesses += char
-      true
     else
       @wrong_guesses += char
-      true
     end
   end
 
@@ -59,9 +56,13 @@ class HangpersonGame
   end
 
   def check_win_or_lose
-    return :lose if @wrong_guesses.length >= MAX_GUESSES
     return :win  if @word == word_with_guesses
+    return :lose if @wrong_guesses.length >= @@max_guesses
     :play
+  end
+
+  def self.max_guesses
+    @@max_guesses
   end
 
 end
